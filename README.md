@@ -12,3 +12,13 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 🎥 **Watch AI Running Coach in Action!** 👉 [**YouTube Demo**](https://youtu.be/iKnkPSCsl9g)  
 
 [![AI Running Coach Demo](https://img.youtube.com/vi/iKnkPSCsl9g/maxresdefault.jpg)](https://youtu.be/iKnkPSCsl9g)
+
+## 🔧 Installation & Running the Code  
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/ai_running_coach.git
+cd ai_running_coach
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+3️⃣ Run the App with Streamlit
+streamlit run ktest.py
