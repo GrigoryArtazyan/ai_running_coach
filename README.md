@@ -8,11 +8,9 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 ✅ **Running style classification** Categorizes runners into different styles based on form and efficiency (Eco Sprinter, Quick Stepper, etc.). 
 ✅ **Insights on running economy parameters** Provides feedback and data-analysis
 
-## 📸 Live Demo  
-🎥 **Watch AI Running Coach in Action!** 👉 [**YouTube Demo**](https://youtu.be/iKnkPSCsl9g)  
-
-[![AI Running Coach Demo](https://img.youtube.com/vi/iKnkPSCsl9g/maxresdefault.jpg)](https://youtu.be/iKnkPSCsl9g)
-
+## 🖼️ Project Dashboard and Snapshot  
+![Running Pose Estimation](runnin_pose_estimation_sample.png)  
+![App Dashboard](app_dashboard_interface.png)  
 
 ## 🛠️ Tech Stack  
 - **Pose Estimation:** Google MediaPipe  
@@ -21,8 +19,10 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 - **Data Visualization:** Matplotlib, Pandas  
 - **Deployment:** Streamlit Cloud  
 
-## 🖼️ Project Snapshot  
-![Running Pose Estimation](123.png)  
+## 📸 Live Demo  
+🎥 **Watch AI Running Coach in Action!** 👉 [**YouTube Demo**](https://youtu.be/iKnkPSCsl9g)  
+
+[![AI Running Coach Demo](https://img.youtube.com/vi/iKnkPSCsl9g/maxresdefault.jpg)](https://youtu.be/iKnkPSCsl9g)
 
 ## 🔧 Installation & Running the Code  
 ```bash
