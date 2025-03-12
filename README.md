@@ -5,7 +5,7 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 
 ## 🎯 Key Features  
 ✅ **Real-time body tracking** Detects **33+ key body points** to analyze posture and movement.   
-✅ **Running style classification** Categorizes runners into different styles based on form and efficiency (Eco Sprinter, Quick Stepper, etc.). 
+✅ **Running style classification** Categorizes runners into different styles based on form and efficiency (Eco Sprinter, Quick Stepper, etc.) 
 ✅ **Insights on running economy parameters** Provides feedback and data-analysis
 
 ## 🖼️ Project Dashboard and Snapshot  
