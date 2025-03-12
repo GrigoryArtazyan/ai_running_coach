@@ -1,7 +1,4 @@
-import matplotlib
-matplotlib.use('Agg')  # Ensures Matplotlib uses a backend compatible with Streamlit
-
-#import streamlit as st
+import streamlit as st
 import tempfile
 import cv2
 import numpy as np
@@ -11,6 +8,9 @@ import os
 import sys
 from streamlit_vertical_slider import vertical_slider
 from streamlit_option_menu import option_menu
+
+import matplotlib
+matplotlib.use('Agg')  # Ensures Matplotlib uses a backend compatible with Streamlit
 
 import menu_bar
 # Initialize Mediapipe for pose detection
