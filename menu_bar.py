@@ -1,7 +1,20 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-# Navigation menu
+# Function to handle content display for each page
+def display_page(page_name):
+    pages = {
+        "Home": ("Home Page", "Will be updated soon."),
+        "About": ("About Page", "Will be updated soon."),
+        "AI Coach": ("AI Coach Page", "Will be updated soon."),
+        "Capstone Notes": ("Capstone Notes Page", "Will be updated soon."),
+    }
+    
+    title, content = pages.get(page_name, ("Page Not Found", "This page does not exist."))
+    st.title(title)
+    st.write(content)
+
+# Persistent Sidebar with Menu
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
@@ -12,16 +25,5 @@ with st.sidebar:
         orientation="horizontal"
     )
 
-# Load the selected page
-if selected == "Home":
-    st.title("Home Page")
-    st.write("Will be updated soon.")
-elif selected == "About":
-    st.title("About Page")
-    st.write("Will be updated soon.")
-elif selected == "AI Coach":
-    st.title("AI Coach Page")
-    st.write("Will be updated soon.")
-elif selected == "Capstone Notes":
-    st.title("Capstone Notes Page")
-    st.write("Will be updated soon.")
+# Main content is updated based on the selected menu item
+display_page(selected)
