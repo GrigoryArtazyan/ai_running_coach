@@ -13,15 +13,22 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 
 [![AI Running Coach Demo](https://img.youtube.com/vi/iKnkPSCsl9g/maxresdefault.jpg)](https://youtu.be/iKnkPSCsl9g)
 
-## 🔧 Installation & Running the Code  
 
+## 🛠️ Tech Stack  
+- **Pose Estimation:** Google MediaPipe  
+- **Languages:** Python  
+- **Frameworks:** Streamlit, OpenCV, NumPy  
+- **Data Visualization:** Matplotlib, Pandas  
+- **Deployment:** Streamlit Cloud  
+
+## 🖼️ Project Snapshot  
+![Running Pose Estimation](123.png)  
+
+## 🔧 Installation & Running the Code  
 ```bash
-### 1️⃣ Clone the Repository  
+# 1️⃣ Clone the Repository  
 git clone https://github.com/yourusername/ai_running_coach.git
 cd ai_running_coach
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the App with Streamlit
-streamlit run ktest.py
+# 2️⃣ Run the App with Streamlit  
+streamlit run app.py
