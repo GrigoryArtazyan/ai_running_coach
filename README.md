@@ -9,8 +9,10 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 ✅ **Insights on running economy parameters** Provides feedback and data-analysis
 
 ## 🖼️ Project Dashboard and Snapshot  
-![Running Pose Estimation](images/runnin_pose_estimation_sample.png)  
+  
 ![App Dashboard](images/app_dashboard_interface.png)
+
+![Running Pose Estimation](images/runnin_pose_estimation_sample.png)
 
 ## 🛠️ Tech Stack  
 - **Pose Estimation:** Google MediaPipe  
