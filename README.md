@@ -1,6 +1,6 @@
 # 🏃‍♂️ AI Running Coach 
 
-A live demo of **AI Running Coach** in action for **CP194**!  
+A live demo of **AI Running Coach** in action! 
 Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyzes running form in real-time, classifies running styles, and provides useful insights** to help runners optimize their technique.  
 
 ## 🎯 Key Features  
