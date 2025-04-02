@@ -329,10 +329,10 @@ from streamlit_option_menu import option_menu
 # Function to handle content display for each page
 def display_page(page_name):
     pages = {
-        "Home": ("Home Page", "Will be updated soon."),
-        "About": ("About Page", "Will be updated soon."),
-        "AI Coach": ("AI Coach Page", "Will be updated soon."),
-        "Capstone Notes": ("Capstone Notes Page", "Will be updated soon."),
+        "Home": ("Home Page", "Using advanced pose estimation with Google MediaPipe, this tool analyzes running form in real-time, classifies running styles, and provides useful insights to help runners optimize their technique."),
+        "About": ("About Page", "I’m a Computer Science student at Minerva University passionate about web development, data analytics, and pose estimation. I created this project to explore for AI & ML models can be applied in the running. With a focus on usability and impact, I enjoy building intuitive tools that connect technology with real-world applications."),
+        "AI Coach": ("AI Coach Page", "Run and Enjoy"),
+        "Capstone Notes": ("Capstone Notes Page", "HC's & LO's in the Capstone Project Writeup."),
     }
     
     title, content = pages.get(page_name, ("Page Not Found", "This page does not exist."))
