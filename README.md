@@ -3,6 +3,8 @@
 A live demo of **AI Running Coach** in action! 
 Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyzes running form in real-time, classifies running styles, and provides useful insights** to help runners optimize their technique.  
 
+🔗 **Try it live:** [AI Running Coach](https://airunningcoach.streamlit.app/)  
+
 ## 🎯 Key Features  
 ✅ **Real-time body tracking** Detects **33+ key body points** to analyze posture and movement.   
 
