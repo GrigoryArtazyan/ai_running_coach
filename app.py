@@ -306,3 +306,5 @@ if any(uploaded_files):  # If any video is uploaded
     st.markdown(f"### Running Style Classification: {running_style}")  # Display classification result
     st.markdown(running_style_description)  # Display classification description
     st.image("images/big_six.png", caption="Running Style Classification", width=600)  # Display classification image
+
+#end
