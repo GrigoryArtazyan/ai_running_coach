@@ -12,7 +12,7 @@ def calculate_angle(a, b, c):
     magnitude_ab = np.linalg.norm(ab)  # Magnitude of vector ab
     magnitude_bc = np.linalg.norm(bc)  # Magnitude of vector bc
     angle = np.arccos(dot_product / (magnitude_ab * magnitude_bc))  # Angle in radians
-    return np.degrees(angle)  # Convert angle to degrees
+    return np.degrees(angle)  # Convert angle to degrees    git status
 
 # Function to calculate pose angles (specifically knee angle)
 def calculate_pose_angles(landmarks, width, height):

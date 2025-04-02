@@ -34,5 +34,8 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 git clone https://github.com/yourusername/ai_running_coach.git
 cd ai_running_coach
 
-# 2️⃣ Run the App with Streamlit  
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the App with Streamlit
 streamlit run app.py
