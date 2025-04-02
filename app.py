@@ -160,28 +160,45 @@ def analyze_stride_performance(joint_positions, time_points):
 
 # Function to classify running style based on stride frequency and vertical oscillation
 def classify_running_style(stride_frequency, vertical_oscillation):
-    if stride_frequency > 2.5 and vertical_oscillation > 0.08:
-        return "Power Racer", "Profile with highest top speed, very common among middle-distance elite runners.\n" \
-                              "Long, powerful strides with short ground contact.\n" \
-                              "Stiff, springy legs yielding great elastic bounce.\n" \
-                              "Large vertical peak force acting on the joints.\n" \
-                              "Highest injury risk, tough on lower leg and calf due to extreme ankle joint power generation."
-    elif stride_frequency > 2.0 and vertical_oscillation <= 0.08:
-        return "Eco Sprinter", "Active compact stride with great elastic bounce.\n" \
-                               "Best compromise between speed capacity, running economy, and injury risk.\n" \
-                               "Very common profile among elite 5-42k runners.\n" \
-                               "Next lowest injury risk after Quick Steppers."
-    elif stride_frequency < 1.5:
+    if stride_frequency > 2.5:
+        if vertical_oscillation > 0.08:
+            return "Power Racer", "Profile with highest top speed, very common among middle-distance elite runners.\n" \
+                                  "Long, powerful strides with short ground contact.\n" \
+                                  "Stiff, springy legs yielding great elastic bounce.\n" \
+                                  "Large vertical peak force acting on the joints.\n" \
+                                  "Highest injury risk, tough on lower leg and calf due to extreme ankle joint power generation."
+        else:
+            return "Long Strider", "Characterized by long, efficient strides with moderate vertical oscillation.\n" \
+                                   "Ideal for runners with high speed potential and good running economy.\n" \
+                                   "Common among elite marathoners and long-distance runners."
+    elif stride_frequency > 2.0:
+        if vertical_oscillation > 0.08:
+            return "Quick Stepper", "Short, rapid strides with moderate vertical oscillation.\n" \
+                                    "Efficient running style with low injury risk.\n" \
+                                    "Common among recreational runners aiming for consistent pacing."
+        else:
+            return "Eco Sprinter", "Active compact stride with great elastic bounce.\n" \
+                                   "Best compromise between speed capacity, running economy, and injury risk.\n" \
+                                   "Very common profile among elite 5-42k runners.\n" \
+                                   "Next lowest injury risk after Quick Steppers."
+    elif stride_frequency > 1.5:
+        if vertical_oscillation > 0.08:
+            return "Easy Strider", "Easy going style, follows the law of least resistance.\n" \
+                                   "Most common profile among all six.\n" \
+                                   "Characterized by overstride and a tendency towards soft knee during support.\n" \
+                                   "Sensitive to different footwear.\n" \
+                                   "Low to average speed capacity and running economy at medium injury risk."
+        else:
+            return "Constant Glider", "Short strides with nearly constant ground contact.\n" \
+                                      "Characterized by low vertical oscillation and high stride frequency.\n" \
+                                      "Efficient running style with moderate speed capacity and low injury risk.\n" \
+                                      "Common among long-distance runners."
+    else:
         return "Easy Strider", "Easygoing style, follows the law of least resistance.\n" \
                                "Most common profile among all six.\n" \
                                "Characterized by overstride and a tendency towards soft knee during support.\n" \
                                "Sensitive to different footwear.\n" \
                                "Low to average speed capacity and running economy at medium injury risk."
-    else:
-        return "Constant Glider", "Short strides with nearly constant ground contact.\n" \
-                                  "Characterized by low vertical oscillation and high stride frequency.\n" \
-                                  "Efficient running style with moderate speed capacity and low injury risk.\n" \
-                                  "Common among long-distance runners."
 
 # Streamlit UI
 st.title("Welcome To Your AI Running Coach")
