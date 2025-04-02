@@ -3,5 +3,6 @@ opencv-python-headless
 numpy
 mediapipe
 matplotlib
+streamlit-toggle
 streamlit-vertical-slider
 streamlit-option-menu
