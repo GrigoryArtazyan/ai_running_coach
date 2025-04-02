@@ -1,0 +1,7 @@
+streamlit
+opencv-python-headless
+numpy
+mediapipe
+matplotlib
+streamlit-vertical-slider
+streamlit-option-menu
