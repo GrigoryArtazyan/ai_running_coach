@@ -12,7 +12,6 @@ import sys
 from streamlit_vertical_slider import vertical_slider
 from streamlit_option_menu import option_menu
 
-import menu_bar
 
 # Initialize Mediapipe for pose detectiongit status
 mp_pose = mp.solutions.pose  # Pose model for detecting body landmarks
