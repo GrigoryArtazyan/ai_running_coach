@@ -218,7 +218,7 @@ with col2:
     - **Check out sample ways to record yourself on the phone [here](https://www.tiktok.com/@drvizuals/video/7380753416466861317?is_from_webapp=1&web_id=7446040220871689761).**
     """)
 
-
+st.markdown("""---""")
 
 col1, col2 = st.columns([1, 2])
 with col1:
