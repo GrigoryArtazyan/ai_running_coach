@@ -221,10 +221,11 @@ with col2:
 
 col1, col2 = st.columns([1, 2])
 with col1:
-    joint_color = st.color_picker("Pick a color for joints", "#FF0000")  # Color picker for joint visualization
+    joint_color = st.color_picker("Pick a color for joints", "#00FF00")  # Color picker for joint visualization
 
     # Vertical slider for user to reflect on their average running pace
 
+    st.write(f"What is yout running pace in min/km?")
     average_pace = vertical_slider(
         label="Reflect on your average running pace (min/km)",
         key="vert_01",
