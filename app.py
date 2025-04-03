@@ -253,7 +253,8 @@ with col2:
 
     # Upload video files
     st.markdown("If your video captures you running from a **centered** angle, upload it here.")
-    uploaded_file_C = st.file_uploader("Upload Center Angle Video", type=["mp4", "mov", "avi", "mkv"])
+    uploaded_file_C = st.file_uploader("If your video captures you running from a **centered** angle, upload it here.", type=["mp4", "mov", "avi", "mkv"])
+    st.markdown("""---""")
     st.markdown("If your video captures you running from a **left/right** angle, upload it here.")
     uploaded_file_LR = st.file_uploader("Upload Left/Right Angle Video", type=["mp4", "mov", "avi", "mkv"])
 
