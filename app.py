@@ -215,7 +215,7 @@ with col2:
     - **If possible, step several distance away from the camera and run in front of it (or run towards the camera) .**
     - **Keep the camera steady and at a consistent height.**
     - **Make sure other people dont pass in front of camera.**
-    - **Check out ways to record yourself on the phone here [Sample Video](https://www.tiktok.com/@drvizuals/video/7380753416466861317?is_from_webapp=1&sender_device=pc&web_id=7446040220871689761).**
+    - **Check out sample ways to record yourself on the phone [here](https://www.tiktok.com/@drvizuals/video/7380753416466861317?is_from_webapp=1&web_id=7446040220871689761).**
     """)
 
 
