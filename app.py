@@ -248,7 +248,7 @@ with col2:
     st.markdown("""
     - **Suggest length of 10-20 seconds**
     - **Suggest size 5-10 MB preferably**
-    - Formats: **MP4, MOV, AVI, MKV, MPEG4**
+    - **Formats: MP4, MOV, AVI, MKV, MPEG4**
     """)
 
     # Upload video files
