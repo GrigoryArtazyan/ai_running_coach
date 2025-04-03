@@ -227,7 +227,6 @@ with col1:
 
     st.write(f"What is yout running pace in min/km?")
     average_pace = vertical_slider(
-        label="Reflect on your average running pace (min/km)",
         key="vert_01",
         height=300,
         thumb_shape="square",
