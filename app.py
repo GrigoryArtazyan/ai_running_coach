@@ -208,7 +208,7 @@ st.image("images/welcome_illustrations.jpg", caption="Stride Analysis and Pose E
 st.markdown("### Recording Instructions:")
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image("images/recording_instructions.jpg", caption="Recording Instructions", use_container_width=True)
+    st.image("images/demo_instructions_image.png", caption="Recording Instructions", use_container_width=True)
 with col2:
     st.markdown("""
     - **Set up your phone and let it lean against an object (e.g. bench/tree) so that your full body is visible.**
