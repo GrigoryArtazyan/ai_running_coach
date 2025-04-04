@@ -6,3 +6,5 @@ matplotlib
 streamlit-toggle
 streamlit-vertical-slider
 streamlit-option-menu
+
+
