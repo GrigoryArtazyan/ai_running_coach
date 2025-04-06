@@ -31,17 +31,21 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 [![AI Running Coach Demo](https://img.youtube.com/vi/iKnkPSCsl9g/maxresdefault.jpg)](https://youtu.be/iKnkPSCsl9g)
 
 ## 🔧 Installation & Running the Code  
-```bash
 🔗 Try it live: [AI Running Coach](https://airunningcoach.streamlit.app/)  or follow the steps below to run it locally:
 
-# 1️⃣ Clone the Repository  
+# 1️⃣ Clone the Repository
+```bash  
 git clone https://github.com/yourusername/ai_running_coach.git
 cd ai_running_coach
+```
 
 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 3️⃣ Run the App with Streamlit
+```bash
 streamlit run app.py
 ```
 
