@@ -45,3 +45,27 @@ pip install -r requirements.txt
 
 3️⃣ Run the App with Streamlit
 streamlit run app.py
+
+## 🔧 Installation & Running the Code
+
+🔗 **Try it live**: [AI Running Coach](https://airunningcoach.streamlit.app/)  
+_or follow the steps below to run it locally:_
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/ai_running_coach.git
+cd ai_running_coach
+
+
+```bash
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+
+```bash
+###3️⃣ Run the App with Streamlit
+streamlit run app.py
+
