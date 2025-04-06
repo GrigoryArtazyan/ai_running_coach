@@ -26,9 +26,9 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 - **Deployment:** Streamlit Cloud  
 
 ## 📸 Live Demo  
-🎥 **Watch AI Running Coach in Action!** 👉 [**YouTube Demo**](https://youtu.be/iKnkPSCsl9g)  
+🎥 **Watch AI Running Coach in Action!** 👉 [**YouTube Demo**](https://youtu.be/m_ehGvNTfvA)  
 
-[![AI Running Coach Demo](https://youtu.be/m_ehGvNTfvA)
+[![AI Running Coach Demo](https://img.youtube.com/vi/iKnkPSCsl9g/maxresdefault.jpg)](https://youtu.be/iKnkPSCsl9g)
 
 ## 🔧 Installation & Running the Code  
 ```bash
