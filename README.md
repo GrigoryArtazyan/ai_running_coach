@@ -32,9 +32,9 @@ Using advanced **pose estimation** with **Google MediaPipe**, this tool **analyz
 
 ## 🔧 Installation & Running the Code  
 ```bash
-🔗 Try AI Running Coach live: (https://airunningcoach.streamlit.app/)
+🔗 Try AI Running Coach live: https://airunningcoach.streamlit.app/
 ``` 
-or follow the steps below to run it locally
+-> Or follow the 3 steps below to run it locally.
 
 ### 1️⃣ Clone the Repository
 ```bash  
